@@ -1,4 +1,4 @@
-# **Hands-on Project: Facial Recognition System with Siamese Networks**
+# **Facial Recognition System with Siamese Networks**
 
 ## Problem Statement
 

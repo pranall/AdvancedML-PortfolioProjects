@@ -39,3 +39,26 @@ The features of this dataset can be observed using the below image:
 
 <img width="838" height="411" alt="download3" src="https://github.com/user-attachments/assets/e9ce76a4-436b-4e57-a088-0a68f19e9ca9" />
 
+------
+
+# Functions Used
+
+### OpenCV Functions for Bounding Box Visualization (Summary)
+
+1. **`cv2.rectangle`**: Draws bounding boxes on the image using top-left and bottom-right coordinates, color, and thickness. Thickness `-1` fills the rectangle.
+
+2. **Font Scale Calculation**: `font_scale = min(1, max(0.3, w/1000))` adjusts text size relative to image width for readability.
+
+3. **Font Thickness Calculation**: `thickness = max(1, int(w/500))` scales stroke width with image size to prevent thin text.
+
+4. **`cv2.getTextSize`**: Measures text width and height for proper label placement. Parameters include font type, scale, and thickness.
+
+5. **`cv2.putText`**: Renders class labels above bounding boxes at an offset position using calculated font size and thickness.
+
+**Key Roles:**
+
+* `rectangle`: Draw boxes
+* `getTextSize`: Measure label dimensions
+* `putText`: Draw labels
+
+--------------------------

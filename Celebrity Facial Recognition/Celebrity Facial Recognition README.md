@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-The task of this project is to develop a Siamese Network that can accurately identify whether a given image contains the face of celebrity or not. The network should be trained and evaluated on a separate test set, and should achieve good performance on the task. The network should also be able to generalize to unseen images of celebrities, and should be able to handle variations in pose, lighting, and background. The final model should be able to classify an image as containing a celebrity's face with high confidence.
+The project aimed to develop a Siamese Network to determine whether an image contained a celebrity face. The network was trained and evaluated on separate datasets to achieve robust performance, generalize to unseen images, and handle variations in pose, lighting, and background. The final model classified images as containing a celebrity face with high confidence.
 
 -----
 

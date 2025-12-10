@@ -3,6 +3,10 @@ The project involved developing an object detection system for self-driving appl
 
 ----------
 
+Since the .ipynb file was too big, you can access it from [this link](https://drive.google.com/file/d/1ORNKaQVnljTJ1S2QgfKecbRsVRoSM5VN/view?usp=drive_link)
+
+------
+
 ## YOLO - Object Detection Introduction
 
 YOLO is an object detection framework that performs detection and classification in a single pass using one CNN. It operates in real time, divides the image into a grid, assigns objects to cells, and outputs bounding boxes with class probabilities. It detects multiple objects per image and has evolved through versions such as YOLOv2–YOLOv4 with improvements in speed and accuracy.
@@ -38,6 +42,10 @@ The features of this dataset can be observed using the below image:
 - Inorder to visualize a bounding box, we can also obtain the left top coordinates and right-bottom coordinates by using the center coordinates and height and width values.
 
 <img width="838" height="411" alt="download3" src="https://github.com/user-attachments/assets/e9ce76a4-436b-4e57-a088-0a68f19e9ca9" />
+
+
+Two Datasets can be downloaded from here since they're too heavy to upload on GitHub: 
+[Inference Data](https://drive.google.com/file/d/1H1ExrfYU_tc1YU2HIIKvIjYqbMNUHYsp/view?usp=drive_link) and [Vehicles Open Images](https://drive.google.com/file/d/1nsrcO3hSF4cdCG60KhrzGpoMNU7R9eg0/view?usp=drive_link)
 
 ------
 

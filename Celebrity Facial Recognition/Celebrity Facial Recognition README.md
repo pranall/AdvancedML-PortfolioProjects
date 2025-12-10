@@ -4,6 +4,16 @@
 
 The task of this project is to develop a Siamese Network that can accurately identify whether a given image contains the face of celebrity or not. The network should be trained and evaluated on a separate test set, and should achieve good performance on the task. The network should also be able to generalize to unseen images of celebrities, and should be able to handle variations in pose, lighting, and background. The final model should be able to classify an image as containing a celebrity's face with high confidence.
 
+-----
+
+## Dataset
+
+The dataset was too huge to upload but can be accessed from this drive link
+
+[Dataset Link](https://drive.google.com/file/d/1osOoCbmpPR-1-VGpyoD9g805CF_jFUSM/view?usp=drive_link)
+
+-------------
+
 ## Conclusion and Insights
 
 This is a **detailed conclusion and business-level insight** based on the entire project on implementing a **Siamese Network for Face Verification / One-shot Learning**
